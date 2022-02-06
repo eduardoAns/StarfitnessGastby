@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
-import { Box, IconButton, useBreakpointValue } from '@chakra-ui/react';
+import { Box, IconButton } from '@chakra-ui/react';
 // Here we have used react-icons package for the icons
 import { BiLeftArrowAlt, BiRightArrowAlt } from 'react-icons/bi';
 // And react-slick as our Carousel Lib
@@ -26,8 +26,8 @@ export default function Slide() {
 
   // These are the breakpoints which changes the position of the
   // buttons as the screen size changes
-  const top = useBreakpointValue({ base: '90%', md: '50%' });
-  const side = useBreakpointValue({ base: '30%', md: '10px' });
+  const top = ({ base: '90%', md: '50%' });
+  const side = ({ base: '30%', md: '10px' });
 
   // These are the images used in the slide
   const cards = [
