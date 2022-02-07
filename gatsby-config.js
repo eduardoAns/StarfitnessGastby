@@ -1,4 +1,3 @@
-const path = require(`path`);
 
 module.exports = {
     siteMetadata: {
@@ -20,13 +19,6 @@ module.exports = {
            * if false, this plugin will not use <ColorModeProvider />
            */
           isUsingColorMode: true,
-        },
-      },
-      {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `images`,
-          path: path.join(__dirname, `src`, `images`),
         },
       },
     ],

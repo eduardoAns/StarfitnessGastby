@@ -12,7 +12,7 @@ import { StaticImage } from 'gatsby-plugin-image';
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
-            <Heading fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}>
+            <Heading fontSize={{ base: '3x1', md: '3xl', lg: '4xl' }}>
               <Text
                 as={'span'}
                 position={'relative'}
