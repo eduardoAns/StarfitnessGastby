@@ -8,10 +8,9 @@ import {
     Avatar,
     Box,
     Center,
-    Link,
     Badge,
     useColorModeValue,
-  } from '@chakra-ui/react';
+} from '@chakra-ui/react';
   
   export default function HeroAbout() {
     return (
@@ -46,21 +45,19 @@ import {
                     right: 3,
                     }}
                 />
-                <Heading fontSize={'2xl'} fontFamily={'body'}>
-                    Lindsey James
+                <Heading fontSize={'2xl'} fontFamily={'body'} >
+                    Estrella Ansa
                 </Heading>
-                <Text fontWeight={600} color={'gray.500'} mb={4}>
-                    @lindsey_jam3s
+                <Text fontFamily={'body'} fontWeight={'semibold'} pb={'1rem'}>
+                  Calama
                 </Text>
+               
                 <Text
                     textAlign={'center'}
                     color={useColorModeValue('gray.700', 'gray.400')}
                     px={3}>
-                    Actress, musician, songwriter and artist. PM for work inquires or{' '}
-                    <Link href={'#'} color={'blue.400'}>
-                    #tag
-                    </Link>{' '}
-                    me in your posts
+                    Entrenadora especializada en la mujer{' '}
+                    
                 </Text>
         
                 <Stack align={'center'} justify={'center'} direction={'row'} mt={6}>
@@ -69,21 +66,21 @@ import {
                     py={1}
                     bg={useColorModeValue('gray.50', 'gray.800')}
                     fontWeight={'400'}>
-                    #art
+                    #Fitness
                     </Badge>
                     <Badge
                     px={2}
                     py={1}
                     bg={useColorModeValue('gray.50', 'gray.800')}
                     fontWeight={'400'}>
-                    #photography
+                    #ViveSano
                     </Badge>
                     <Badge
                     px={2}
                     py={1}
                     bg={useColorModeValue('gray.50', 'gray.800')}
                     fontWeight={'400'}>
-                    #music
+                    #ComeSano
                     </Badge>
                 </Stack>
         
@@ -95,7 +92,7 @@ import {
                     _focus={{
                         bg: 'gray.200',
                     }}>
-                    Message
+                    Mensaje
                     </Button>
                     <Button
                     flex={1}
@@ -112,7 +109,7 @@ import {
                     _focus={{
                         bg: 'blue.500',
                     }}>
-                    Follow
+                    Instagram
                     </Button>
                 </Stack>
                 </Box>
@@ -120,23 +117,25 @@ import {
         </Flex>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
-            <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+            <Heading fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}>
               <Text color={'pink.600'} as={'span'}>
-                Design Projects
+                Entrenadora especializada en la mujer
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+              Si estas lista para cambiar tu cuerpo y la forma en que lo tratas y no es un "yo quisiera" "me gustaría" "si pudiera",    si tus palabras son estas ultimas entonces aún no estás preparada. No gastes tu dinero ni tu tiempo. 
+              Pero si sientes un deseo real y no estás dispuesta a seguir con ese inconformismo ni un día más, si te ves en un futuro actuando como esa mujer que tiene el cuerpo que se merece... entonces estás en el lugar correcto. 
+              Juntas podemos trabajar por una figura que te represente y haga tu vida mas plena.
             </Text>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+              Conozco muy bien ese camino, he pasado por muchos obstáculos, años probando, investigando, formándome en teoría y en práctica, probando distintas formas de trabajo, especializándome en el entrenamiento para la mujer, en la alimentacion, suplementacion y todo los que se requiere para esculpir un fisico. Un desafío personal fue llevar mi cuerpo a otro nivel, preparándome para competir como atleta de bikini fitness en la Federación de fisicoculturismo y fitness de Chile, siendo mi propia preparadora consiguiendo excelente resultados. <br/>
+              Todas estas experiencias me han llevado a conocer muy bien como funciona el cuerpo femenino, además siendo mujer comprendo las necesidades físicas y también psicológicas que más nos importan. Mi pasion es trabajar con el cuerpo, mi mision y deseo es que muchas mujeres sientan el beneficio y la planitud
+              de vivir en una piel que las haga felices.
             </Text>
 
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+              Te gustaria elevar tus estandares fisicos?
+              <br/>Trabajemos juntas para esas metas.
             </Text>
           </Stack>
         </Flex>

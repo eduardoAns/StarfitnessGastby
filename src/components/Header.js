@@ -61,7 +61,7 @@ export default function Header() {
           />
           <HStack spacing={8} alignItems={'center'}>
             <Box pr={{ base: '2rem', md: '1rem' }}>
-              <Heading size={'lg'}>
+              <Heading size={'lg'} color={'pink.600'}>
                 Starfitness
               </Heading>  
             </Box>
@@ -90,10 +90,10 @@ export default function Header() {
                 />
               </MenuButton>
               <MenuList>
-                <MenuItem>Link 1</MenuItem>
-                <MenuItem>Link 2</MenuItem>
+                <MenuItem>Facebook</MenuItem>
+                <MenuItem>Instagram</MenuItem>
                 <MenuDivider />
-                <MenuItem>Link 3</MenuItem>
+                <MenuItem>Whatsapp</MenuItem>
               </MenuList>
             </Menu>
           </Flex>
