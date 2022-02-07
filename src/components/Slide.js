@@ -93,7 +93,6 @@ export default function Slide() {
             backgroundPosition="center"
             backgroundRepeat="no-repeat"
             backgroundSize="cover"
-
             backgroundImage={`url(${url})`}
           />
         ))}
