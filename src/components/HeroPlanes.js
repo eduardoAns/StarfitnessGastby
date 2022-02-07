@@ -24,7 +24,7 @@ import { StaticImage } from 'gatsby-plugin-image';
           <Stack spacing={6} w={'full'} maxW={'lg'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} >
               <Text color={'pink.600'} as={'span'}>
-                Plan 1
+                Plan mujer autonoma
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
@@ -72,7 +72,7 @@ import { StaticImage } from 'gatsby-plugin-image';
           <Stack spacing={6} w={'full'} maxW={'lg'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} >
               <Text color={'pink.600'} as={'span'}>
-                Plan 2
+                Plan mujer autonoma integral
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
@@ -120,7 +120,7 @@ import { StaticImage } from 'gatsby-plugin-image';
           <Stack spacing={6} w={'full'} maxW={'lg'}>
             <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }} >
               <Text color={'pink.600'} as={'span'}>
-                Plan 3
+                Coaching mujer integral
               </Text>{' '}
             </Heading>
             <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>

@@ -12,7 +12,7 @@ import { StaticImage } from 'gatsby-plugin-image';
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }}>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
           <Stack spacing={6} w={'full'} maxW={'lg'}>
-            <Heading fontSize={{ base: '3xl', md: '4xl', lg: '5xl' }}>
+            <Heading fontSize={{ base: '2xl', md: '3xl', lg: '4xl' }}>
               <Text
                 as={'span'}
                 position={'relative'}
@@ -26,25 +26,21 @@ import { StaticImage } from 'gatsby-plugin-image';
                   bg: 'pink.600',
                   zIndex: -1,
                 }}>
-                Freelance
+                Entrenadora
               </Text>
               <br />{' '}
               <Text color={'pink.600'} as={'span'}>
-                Design Projects
+                Especializada en la mujer
               </Text>{' '}
             </Heading>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.500'}>
+            ¿Estas dispuesta a cambiar la forma en que tratas a tu cuerpo?.
             </Text>
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.500'}>
+            Si eres una mujer multifuncional, que quiere mejorar su cuerpo desde adentro hacia afuera, entonces INICIA TU TRANSFORMACION.
             </Text>
-
-            <Text fontSize={{ base: 'md', lg: 'lg' }} color={'gray.500'}>
-              The project board is an exclusive resource for contract work. It's
-              perfect for freelancers, agencies, and moonlighters.
+            <Text fontSize={{ base: 'lg', lg: 'xl' }} color={'gray.500'}>
+              No esperes mas y Trabajemos por tu mejor version
             </Text>
           </Stack>
         </Flex>

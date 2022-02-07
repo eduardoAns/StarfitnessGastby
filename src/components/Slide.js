@@ -31,9 +31,9 @@ export default function Slide() {
 
   // These are the images used in the slide
   const cards = [
-    '/images/reto2.jpg',
-    '/images/reto3.jpg',
-    '/images/reto6.jpg',
+    'https://i.ibb.co/vQzN63j/reto2.jpg',
+    'https://i.ibb.co/d0pt16x/reto3.jpg',
+    'https://i.ibb.co/JtDg57L/reto6.jpg',
   ];
 
   return (
