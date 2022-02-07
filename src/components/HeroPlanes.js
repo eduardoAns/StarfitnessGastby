@@ -3,20 +3,21 @@ import {
     Button,
     Flex,
     Heading,
-    Image,
     Stack,
     Text,
   } from '@chakra-ui/react';
+import { StaticImage } from 'gatsby-plugin-image';
   
   export default function HeroPlanes() {
     return (
     <>
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} pb={'2rem'}>
         <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
-            src={'/images/plan1.jpeg'}
+        <StaticImage
+          alt={'plan1'}
+          src={
+            '../images/plan1.jpeg'
+          }
           />
         </Flex>
         <Flex p={8} flex={1} align={'center'} justify={'center'}>
@@ -59,11 +60,11 @@ import {
 
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} pb={'2rem'}>
         <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
-            src={'/images/plan2.jpeg'}
-
+        <StaticImage
+          alt={'plan2'}
+          src={
+            '../images/plan2.jpeg'
+          }
           />
         </Flex>
         
@@ -107,11 +108,11 @@ import {
 
       <Stack minH={'100vh'} direction={{ base: 'column', md: 'row' }} pb={'2rem'}>
         <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
-            src={'/images/plan3.jpeg'}
-
+        <StaticImage
+          alt={'plan3'}
+          src={
+            '../images/plan3.jpeg'
+          }
           />
         </Flex>
         

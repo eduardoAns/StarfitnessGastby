@@ -2,7 +2,6 @@ import React from 'react';
 import {
     Flex,
     Heading,
-    Image,
     Stack,
     Text,
   } from '@chakra-ui/react';
@@ -50,11 +49,11 @@ import { StaticImage } from 'gatsby-plugin-image';
           </Stack>
         </Flex>
         <Flex flex={1}>
-      
           <StaticImage
-            src=
-              '../images/fondo.jpg'
-            />
+          src={
+            '../images/fondo.jpg'
+          }
+          />
         </Flex>
       </Stack>
     );
