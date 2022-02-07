@@ -6,6 +6,7 @@ import {
     Stack,
     Text,
   } from '@chakra-ui/react';
+import { StaticImage } from 'gatsby-plugin-image';
   
   export default function HeroIndex() {
     return (
@@ -49,13 +50,11 @@ import {
           </Stack>
         </Flex>
         <Flex flex={1}>
-          <Image
-            alt={'Login Image'}
-            objectFit={'cover'}
+      
+          <StaticImage
             src={
               '/images/fondo.jpg'
-            }
-          />
+            }/>
         </Flex>
       </Stack>
     );
