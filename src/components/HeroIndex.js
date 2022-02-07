@@ -52,9 +52,9 @@ import { StaticImage } from 'gatsby-plugin-image';
         <Flex flex={1}>
       
           <StaticImage
-            src={
-              '/images/fondo.jpg'
-            }/>
+            src=
+              '../images/fondo.jpg'
+            />
         </Flex>
       </Stack>
     );
