@@ -24,7 +24,7 @@ export default function Slide(){
     userSelect: "none",
     _hover: {
       opacity: 0.8,
-      bg: "black",
+      bg: "gray.700",
     },
   };
 
@@ -65,13 +65,13 @@ export default function Slide(){
   return (
     <Flex
       w="full"
-      bg={useColorModeValue("gray.100", "gray.600")}
-      p={10}
+      bg={useColorModeValue("white", "gray.600")}
+      p={2}
       alignItems="center"
       justifyContent="center"
     >
       <Flex w="900px" overflow="hidden" pos="relative">
-        <Flex h={{base:"900px", md:"1100px"}} w="full" {...carouselStyle}>
+        <Flex h={{base:"850px", md:"1100px"}} w="full" {...carouselStyle}>
           {slides.map((slide, sid) => (
             <Box key={`slide-${sid}`} boxSize="full" shadow="md" flex="none">
               <Text
@@ -100,7 +100,7 @@ export default function Slide(){
               cursor="pointer"
               boxSize={["7px", "15px"]}
               m="0 2px"
-              bg={currentSlide === slide ? "blackAlpha.800" : "blackAlpha.500"}
+              bg={currentSlide === slide ? "gray.300" : "gray.800"}
               rounded="50%"
               display="inline-block"
               transition="background-color 0.6s ease"
