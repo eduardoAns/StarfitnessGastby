@@ -66,12 +66,12 @@ export default function Slide(){
     <Flex
       w="full"
       bg={useColorModeValue("white", "gray.600")}
-      p={2}
+      p={1}
       alignItems="center"
       justifyContent="center"
     >
       <Flex w="900px" overflow="hidden" pos="relative">
-        <Flex h={{base:"850px", md:"1100px"}} w="full" {...carouselStyle}>
+        <Flex h={{base:"800px", md:"1100px"}} w="full" {...carouselStyle}>
           {slides.map((slide, sid) => (
             <Box key={`slide-${sid}`} boxSize="full" shadow="md" flex="none">
               <Text
