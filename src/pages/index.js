@@ -1,6 +1,6 @@
 import React from 'react';
 import Layout from '../components/layout';
-import { Box, Flex } from '@chakra-ui/react';
+import { Box, Flex, Stack } from '@chakra-ui/react';
 import Slide from '../components/Slide';
 import HeroIndex from '../components/HeroIndex';
 
@@ -15,9 +15,7 @@ const IndexPage = () => {
           </Flex>
         </Box>
         <Box pb={'2rem'}>
-          <Box >
-          <Slide />
-          </Box>
+            <Slide />
         </Box>
       </Flex> 
     </Layout>
