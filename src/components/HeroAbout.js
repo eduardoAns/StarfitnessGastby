@@ -10,6 +10,7 @@ import {
     Center,
     Badge,
     useColorModeValue,
+    Link,
 } from '@chakra-ui/react';
   
   export default function HeroAbout() {
@@ -92,7 +93,12 @@ import {
                     _focus={{
                         bg: 'gray.200',
                     }}>
-                    Mensaje
+                    <Link 
+                    _hover={{
+                      textDecoration: 'none',
+                    }} 
+                    href={'https://api.whatsapp.com/send?phone=+56966634262'}
+                    >Whatssap</Link>
                     </Button>
                     <Button
                     flex={1}
@@ -109,7 +115,12 @@ import {
                     _focus={{
                         bg: 'blue.500',
                     }}>
-                    Instagram
+                      <Link 
+                        _hover={{
+                          textDecoration: 'none',
+                        }} 
+                        href={'https://instagram.com/estrella_natali?utm_medium=copy_link'}
+                    >Instagram</Link>
                     </Button>
                 </Stack>
                 </Box>
