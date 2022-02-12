@@ -19,7 +19,7 @@ const Layout = ({ pageTitle, children }) => {
       <Header />
       <main>
         <Center>
-        <Heading color={'pink.600'} alignContent={'center'} pb={'1rem'} >{pageTitle}</Heading>
+        <Heading color={'pink.600'} alignContent={'center'} pb={'1rem'} pt={'1rem'} >{pageTitle}</Heading>
         </Center>
         {children}
       </main>

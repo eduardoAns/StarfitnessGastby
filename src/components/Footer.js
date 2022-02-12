@@ -10,7 +10,7 @@ import {
     useColorModeValue,
     VisuallyHidden,
   } from '@chakra-ui/react';
-  import { FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
+  import { FaFacebook, FaInstagram, FaTwitter, FaWhatsapp, FaYoutube } from 'react-icons/fa';
   
   const Logo = (props) => {
     return (
@@ -87,13 +87,13 @@ import {
             align={{ base: 'center', md: 'center' }}>
             <Text>© 2020 Chakra Templates. All rights reserved</Text>
             <Stack direction={'row'} spacing={6}>
-              <SocialButton label={'Twitter'} href={'#'}>
-                <FaTwitter />
+              <SocialButton label={'Whatsapp'} href={'https://api.whatsapp.com/send?phone=+56966634262'}>
+                <FaWhatsapp />
               </SocialButton>
-              <SocialButton label={'YouTube'} href={'#'}>
-                <FaYoutube />
+              <SocialButton label={'Facebook'} href={'https://www.facebook.com/starfitness.estrellaansa.1'}>
+                <FaFacebook />
               </SocialButton>
-              <SocialButton label={'Instagram'} href={'#'}>
+              <SocialButton label={'Instagram'} href={'https://instagram.com/estrella_natali?utm_medium=copy_link'}>
                 <FaInstagram />
               </SocialButton>
             </Stack>
