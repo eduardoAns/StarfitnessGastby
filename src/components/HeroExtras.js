@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import {
     Flex,
     Heading,
@@ -18,7 +18,7 @@ import Formulario from './calculadoraApp/Formulario';
   
   export default function HeroExtras() {
 
-    const [tareas, setTareas] = useState([])
+    const [tareas, setTareas] = useState(JSON.parse(localStorage.getItem('tareas')) || [])
 
 
 
@@ -29,6 +29,11 @@ import Formulario from './calculadoraApp/Formulario';
     const eliminarTarea = (id) =>{
     setTareas(tareas.filter((tarea)=>(tarea.id !== id) ))
     }
+
+    useEffect(() => {
+      localStorage.setItem('tareas', JSON.stringify(tareas))  
+    }, [tareas])
+    
 
 
 

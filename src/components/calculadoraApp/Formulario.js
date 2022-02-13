@@ -135,6 +135,7 @@ const Formulario = ({crearTarea}) => {
                 
 
                 <Button
+                  marginTop={1}
                   type="submit"  
                   colorScheme="blue"
                   bg="blue.400"
@@ -145,7 +146,7 @@ const Formulario = ({crearTarea}) => {
                   isFullWidth
                   mt={1}
                   >
-                  Agregar
+                  Calcular
                 </Button>
 
               </form>
