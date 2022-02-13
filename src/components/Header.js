@@ -28,6 +28,9 @@ const Links = [{
 },{
     nombre:'Sobre mi',
     path:'/about'
+},{
+  nombre:'Extras',
+  path:'/extras'
 }];
 
 const NavLink = ({ children, path }) => (
